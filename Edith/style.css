@@ -1,0 +1,126 @@
+.logoimg {
+    height: 40px;
+    width: 120px;
+}
+
+.logo_container {
+    height: 80px;
+    width: 80px;
+}
+
+.logoimg img {
+    height: 100%;
+    width: 100%;
+}
+
+.sub-section {
+    height: 75vh;
+}
+
+.landingpage {
+    height: 100vh;
+    width: 100%;
+}
+
+.sponsor_logos {
+    height: 15vh;
+}
+
+.row {
+    width: fit-content;
+}
+
+.about_couch {
+    height: fit-content;
+}
+
+.rounded_container {
+    width: 140px;
+    height: 70px;
+}
+
+.rounded_css {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.faq {
+    width: 100%;
+    height: 100vh;
+}
+
+.title_section {
+    width: 100%;
+    height: 25vh;
+}
+
+.faq_cont {
+    width: 100%;
+}
+
+.modified_text {
+    font-size: 35px;
+}
+
+.row {
+    width: 100%;
+}
+
+.wrap_cont {
+    width: 100%;
+    height: fit-content;
+}
+
+.wrap_contain {
+    width: 100%;
+    height: 15vh;
+}
+
+.icon_border {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+}
+
+.footer_subs {
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+footer {
+    height: fit-content;
+}
+
+.land_cont {
+    height: 85vh;
+    width: 100%;
+}
+
+.back-img {
+    background-image: url(./images/background.png);
+    height: 85vh;
+    background-repeat: no-repeat;
+}
+
+.top_up {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.top_upicon {
+    color: #FFA27E;
+}
+
+.btn {
+    background: #FFA27E;
+    border-color: #FFA27E;
+}
+
+.cardimg_height {
+    height: 220px;
+}
