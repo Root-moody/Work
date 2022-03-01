@@ -135,8 +135,34 @@ footer {
     height: 100%;
 }
 
+.justified {
+    text-align: justify;
+}
+
 @media screen and (max-width: 574px) {
     .erased {
         display: none;
+    }
+    .adjustments {
+        display: flex;
+        justify-content: center;
+    }
+    .img_cont {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .img_cont {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .modified_text {
+        font-size: 25px;
+    }
+    .modified_text2 {
+        font-size: 18px;
     }
 }
