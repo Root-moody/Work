@@ -139,7 +139,7 @@ footer {
     text-align: justify;
 }
 
-@media screen and (max-width: 574px) {
+@media screen and (max-width: 575px) {
     .erased {
         display: none;
     }
@@ -150,6 +150,13 @@ footer {
     .img_cont {
         display: flex;
         justify-content: center;
+        margin: 15px 0;
+    }
+    .last_cont {
+        padding-right: 30px;
+    }
+    .pad {
+        padding-bottom: 10px
     }
 }
 
@@ -164,5 +171,21 @@ footer {
     }
     .modified_text2 {
         font-size: 18px;
+    }
+    .about_master {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .spanfollow_me {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 235px) {
+    .faq {
+        width: fit-content;
+        height: 100vh;
     }
 }
